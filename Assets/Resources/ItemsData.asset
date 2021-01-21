@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191dc62ae3a2e3c4ea1fe0dc4bc85b68, type: 3}
+  m_Name: ItemsData
+  m_EditorClassIdentifier: 
+  _items:
+  - Weight: 3
+    Name: Cube
+    Id: 1
+    ItemType: 1
+    Prefab: {fileID: 6244960961783843388, guid: e93c60ef79afca341b49852b35904412,
+      type: 3}
+    UiColor: {r: 1, g: 0, b: 0, a: 1}
+  - Weight: 2
+    Name: Capsule
+    Id: 2
+    ItemType: 2
+    Prefab: {fileID: 7056915082576706427, guid: 955e11a5a273ff84cb392ea55fa56ee1,
+      type: 3}
+    UiColor: {r: 0, g: 0.18643236, b: 1, a: 1}
+  - Weight: 1
+    Name: Cylinder
+    Id: 3
+    ItemType: 3
+    Prefab: {fileID: 2373821246716696658, guid: 91e9423359d51e4459333340011dbe88,
+      type: 3}
+    UiColor: {r: 0, g: 1, b: 0.02998209, a: 1}
